@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="string" type="id">string</item>
+    <item name="chr" type="id">char</item>
+    <item name="db" type="id">double</item>
+
+    <item name="floats" type="id">float</item>
+    <item name="Double" type="id">double</item>
+    <item name="bool" type="id">boolean</item>
+
+
+</resources>
