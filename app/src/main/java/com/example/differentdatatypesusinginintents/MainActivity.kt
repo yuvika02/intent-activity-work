@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
                 setContentView(R.layout.activity_main)
                 string= findViewById(R.id.string)
                 Char =findViewById(R.id.Char)
-                double=findViewById(R.id.Double)
+                double=findViewById(R.id.etDouble)
                 floats = findViewById(R.id.floats)
-                bool = findViewById(R.id.bool)
+                bool = findViewById(R.id.etBool)
                 btn=findViewById(R.id.btn)
                 btn.setOnClickListener {
                     var intent= Intent(this,login::class.java)

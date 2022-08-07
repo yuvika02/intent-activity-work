@@ -17,8 +17,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="string"
-        android:inputType="string"
+        android:inputType="text"
         android:id="@+id/string" />
 
 
@@ -31,8 +30,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="char"
-        android:inputType="char"
+        android:inputType="text"
+        android:maxLength="1"
         android:id="@+id/Char" />
     <TextView
         android:layout_width="match_parent"
@@ -41,11 +40,10 @@
         android:textSize="20dp"
         />
     <EditText
-        android:id="@+id/Double"
+        android:id="@+id/etDouble"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="double"
-        android:inputType="double" />
+        android:inputType="numberDecimal" />
 
     <TextView
         android:layout_width="match_parent"
@@ -56,7 +54,6 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Float"
         android:inputType="numberDecimal"
         android:id="@+id/floats"/>
     <TextView
@@ -68,10 +65,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Boolean"
-        android:digits="true/false"
+        android:digits="truefalse"
         android:inputType="text"
-        android:id="@+id/bool"/>
+        android:id="@+id/etBool"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

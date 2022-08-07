@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">different datatypes using in intents</string>
+    <string name="string" >string</string>
+    <string name="getchar" >char</string>
+    <string name="getdouble" >double</string>
 </resources>
